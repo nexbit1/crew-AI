@@ -80,6 +80,7 @@ class StockAlert():
             tasks=self.tasks,
             process=Process.hierarchical,
             verbose=True,
-            manager_agent=manager
+            manager_agent=manager,
+            memory=True
         )
     
